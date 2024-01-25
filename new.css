@@ -1,0 +1,38 @@
+body{
+    font-family: "Times New Roman";
+    font-size: 15px;
+    line-height: 1.5;
+}
+.nav{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;    display: block;
+}
+.nav-left{
+    
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.nav-btn{
+    
+    white-space: normal; 
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav-right{
+    
+    float: right;
+}
